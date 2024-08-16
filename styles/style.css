@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+MX:wght@100..400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.empty-placeholder {
+  height: 100vh;
+  background: #d1e1fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.empty-placeholder.footer {
+  height: 140px;
+  margin-top: 52px;
+}
+.empty-placeholder h4 {
+  font-size: 38px;
+  color: #1f417b;
+}
+.empty-placeholder p {
+  color: #1f417b;
+  font-size: 24px;
+  font-weight: 200;
+}
+.empty-placeholder .line {
+  background: #ffffff;
+  height: 2px;
+  margin: 12px 0;
+}
+
+.container {
+  width: 100%;
+  padding: 32px;
+  height: 500px;
+  min-height: 100vh;
+}
+.container .wrapper {
+  display: flex;
+  height: 100%;
+}
+.container .wrapper .left-section,
+.container .wrapper .right-section {
+  width: 50%;
+  overflow: hidden;
+}
+.container .wrapper .left-section .img-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(31, 65, 123, 0.1882352941);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.container .wrapper .left-section .img-wrapper img {
+  width: inherit;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .wrapper .right-section {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .wrapper .right-section h5 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #1f417b;
+  overflow: hidden;
+}
+.container .wrapper .right-section p {
+  font-size: 24px;
+  font-weight: 200;
+  overflow: hidden;
+}
+.container .wrapper .right-section span {
+  display: inline-block;
+}
+.container.section-two .wrapper .right-section, .container.section-four .wrapper .right-section {
+  align-items: flex-end;
+}/*# sourceMappingURL=style.css.map */
